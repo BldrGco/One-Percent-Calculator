@@ -1,0 +1,186 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: file:///C:/Users/jezpa/Downloads/html-compound-calculator.html
+Subject: 1% Better Calculator: The Compound Effect
+Date: Fri, 4 Apr 2025 09:06:46 +0100
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--kHsV3CXXTR2B4FZDLaJlbxsfpIfN1kbLaELfK2FHvZ----"
+
+
+------MultipartBoundary--kHsV3CXXTR2B4FZDLaJlbxsfpIfN1kbLaELfK2FHvZ----
+Content-Type: text/html
+Content-ID: <frame-6EF72C0873314DC38BC414C9F60901C4@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/Users/jezpa/Downloads/html-compound-calculator.html
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-afdb5cd8-6bc4-4496-b2b4-474e1b811a9f@mhtml.blink" />
+   =20
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <title>1% Better Calculator: The Compound Effect</title>
+    <!-- Import Chart.js from CDN -->
+   =20
+   =20
+</head>
+<body>
+    <div class=3D"calculator-container">
+        <h1>The 1% Better Calculator: Visualize Your Growth</h1>
+       =20
+        <div class=3D"controls">
+            <div class=3D"control-group">
+                <label for=3D"dailyImprovement">Daily Improvement (%)</labe=
+l>
+                <input type=3D"range" id=3D"dailyImprovement" min=3D"0.1" m=
+ax=3D"5" step=3D"0.1" value=3D"1">
+                <div class=3D"range-labels">
+                    <span>0.1%</span>
+                    <span class=3D"range-value" id=3D"improvementValue">1%<=
+/span>
+                    <span>5%</span>
+                </div>
+            </div>
+           =20
+            <div class=3D"control-group">
+                <label for=3D"timeframe">Timeframe (Days)</label>
+                <input type=3D"range" id=3D"timeframe" min=3D"30" max=3D"36=
+5" step=3D"30" value=3D"365">
+                <div class=3D"range-labels">
+                    <span>30 days</span>
+                    <span class=3D"range-value" id=3D"timeframeValue">360 d=
+ays</span>
+                    <span>365 days</span>
+                </div>
+            </div>
+        </div>
+       =20
+        <div class=3D"results">
+            <div class=3D"result-cards">
+                <div class=3D"result-card">
+                    <div class=3D"result-title">The Compound Effect</div>
+                    <div class=3D"result-value compound-value" id=3D"compou=
+ndValue">36.31x</div>
+                    <div class=3D"result-label">Exponential Growth</div>
+                </div>
+               =20
+                <div class=3D"result-card">
+                    <div class=3D"result-title">Linear Addition</div>
+                    <div class=3D"result-value linear-value" id=3D"linearVa=
+lue">4.60x</div>
+                    <div class=3D"result-label">Simple Addition</div>
+                </div>
+            </div>
+        </div>
+       =20
+        <div class=3D"chart-container">
+            <canvas id=3D"growthChart" width=3D"2208" height=3D"900" style=
+=3D"display: block; box-sizing: border-box; height: 300px; width: 736px;"><=
+/canvas>
+        </div>
+       =20
+        <div class=3D"insights">
+            <h2>Key Insights</h2>
+            <ul>
+                <li>
+                    <strong>Exponential vs. Linear:</strong> <span id=3D"in=
+sightComparison">At 1% daily improvement over 360 days, you're not just 360=
+.0% better - you're 36.31x better.</span>
+                </li>
+                <li>
+                    <strong>The Power of Small Shifts:</strong> Even tiny i=
+mprovements compound dramatically over time.
+                </li>
+                <li>
+                    <strong>Consistency Matters:</strong> The curve steepen=
+s as time progresses - stay consistent with your improvements.
+                </li>
+            </ul>
+        </div>
+    </div>
+
+   =20
+
+</body></html>
+------MultipartBoundary--kHsV3CXXTR2B4FZDLaJlbxsfpIfN1kbLaELfK2FHvZ----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-afdb5cd8-6bc4-4496-b2b4-474e1b811a9f@mhtml.blink
+
+@charset "utf-8";
+
+* { box-sizing: border-box; margin: 0px; padding: 0px; font-family: -apple-=
+system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, =
+"Open Sans", "Helvetica Neue", sans-serif; }
+
+body { background-color: rgb(245, 247, 250); color: rgb(51, 51, 51); line-h=
+eight: 1.6; }
+
+.calculator-container { max-width: 800px; margin: 2rem auto; padding: 2rem;=
+ background-color: white; border-radius: 12px; box-shadow: rgba(0, 0, 0, 0.=
+08) 0px 4px 20px; }
+
+h1 { text-align: center; margin-bottom: 1.5rem; color: rgb(45, 55, 72); fon=
+t-size: 1.8rem; font-weight: 700; }
+
+.controls { display: flex; flex-wrap: wrap; gap: 1.5rem; margin-bottom: 2re=
+m; }
+
+.control-group { flex: 1 1 0%; min-width: 260px; }
+
+label { display: block; font-size: 0.9rem; font-weight: 600; margin-bottom:=
+ 0.5rem; color: rgb(74, 85, 104); }
+
+input[type=3D"range"] { width: 100%; margin-bottom: 0.5rem; accent-color: r=
+gb(49, 130, 206); }
+
+.range-labels { display: flex; justify-content: space-between; font-size: 0=
+.8rem; color: rgb(113, 128, 150); }
+
+.range-value { font-weight: 600; color: rgb(43, 108, 176); }
+
+.results { background-color: rgb(235, 248, 255); border-radius: 8px; paddin=
+g: 1.5rem; margin-bottom: 2rem; }
+
+.result-cards { display: grid; grid-template-columns: repeat(auto-fit, minm=
+ax(220px, 1fr)); gap: 1rem; }
+
+.result-card { background-color: white; border-radius: 8px; padding: 1.5rem=
+; text-align: center; box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 8px; }
+
+.result-title { font-size: 1rem; font-weight: 600; color: rgb(74, 85, 104);=
+ margin-bottom: 0.5rem; }
+
+.result-value { font-size: 2rem; font-weight: 700; margin-bottom: 0.25rem; =
+}
+
+.compound-value { color: rgb(43, 108, 176); }
+
+.linear-value { color: rgb(113, 128, 150); }
+
+.result-label { font-size: 0.8rem; color: rgb(160, 174, 192); }
+
+.chart-container { height: 300px; margin-bottom: 2rem; }
+
+.insights { background-color: rgb(247, 250, 252); border-radius: 8px; paddi=
+ng: 1.5rem; }
+
+.insights h2 { font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem; c=
+olor: rgb(45, 55, 72); }
+
+.insights ul { list-style-type: none; }
+
+.insights li { display: flex; margin-bottom: 0.75rem; }
+
+.insights li::before { content: "=E2=80=A2"; color: rgb(49, 130, 206); font=
+-weight: bold; display: inline-block; width: 1rem; margin-right: 0.5rem; }
+
+.insights strong { font-weight: 600; color: rgb(45, 55, 72); }
+
+@media (max-width: 640px) {
+  .calculator-container { padding: 1.5rem; margin: 1rem; }
+  h1 { font-size: 1.5rem; }
+  .result-value { font-size: 1.75rem; }
+}
+------MultipartBoundary--kHsV3CXXTR2B4FZDLaJlbxsfpIfN1kbLaELfK2FHvZ------
